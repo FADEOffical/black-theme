@@ -26,4 +26,5 @@ fi
 echo "[info] found bars: $bars"
 for bar in "$bars"; do
     echo "[info] starting bar $bar"
+    polybar -c "bars/$bar"
 done
